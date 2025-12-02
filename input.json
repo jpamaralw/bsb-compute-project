@@ -1,0 +1,81 @@
+{
+  "server_config": [
+    {
+      "id": 1,
+      "capacity": 3,
+      "description": "Servidor de Alta Performance (3x mais rápido)"
+    },
+    {
+      "id": 2,
+      "capacity": 2,
+      "description": "Servidor de Média Performance (2x mais rápido)"
+    },
+    {
+      "id": 3,
+      "capacity": 1,
+      "description": "Servidor Base de Performance (1x)"
+    }
+  ],
+  "request_data": [
+    {
+      "id": 101,
+      "type": "visao_computacional",
+      "priority": 1,
+      "exec_time": 8.0
+    },
+    {
+      "id": 102,
+      "type": "nlp",
+      "priority": 3,
+      "exec_time": 3.0
+    },
+    {
+      "id": 103,
+      "type": "voz",
+      "priority": 2,
+      "exec_time": 5.0
+    },
+    {
+      "id": 104,
+      "type": "visao_computacional",
+      "priority": 2,
+      "exec_time": 6.0
+    },
+    {
+      "id": 105,
+      "type": "nlp",
+      "priority": 1,
+      "exec_time": 2.0
+    },
+    {
+      "id": 106,
+      "type": "voz",
+      "priority": 3,
+      "exec_time": 10.0
+    },
+    {
+      "id": 107,
+      "type": "visao_computacional",
+      "priority": 2,
+      "exec_time": 4.0
+    },
+    {
+      "id": 108,
+      "type": "nlp",
+      "priority": 1,
+      "exec_time": 7.0
+    },
+    {
+      "id": 109,
+      "type": "voz",
+      "priority": 3,
+      "exec_time": 9.0
+    },
+    {
+      "id": 110,
+      "type": "visao_computacional",
+      "priority": 1,
+      "exec_time": 3.0
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "server_config": [
+    { "id": 1, "capacity": 4 },
+    { "id": 2, "capacity": 2 },
+    { "id": 3, "capacity": 1 }
+  ],
+  "request_data": [
+    { "id": 201, "type": "A", "priority": 3, "exec_time": 1 },
+    { "id": 202, "type": "B", "priority": 1, "exec_time": 6 },
+    { "id": 203, "type": "C", "priority": 2, "exec_time": 2 },
+    { "id": 204, "type": "D", "priority": 1, "exec_time": 1 },
+    { "id": 205, "type": "E", "priority": 3, "exec_time": 8 },
+    { "id": 206, "type": "F", "priority": 1, "exec_time": 2 }
+  ]
+}

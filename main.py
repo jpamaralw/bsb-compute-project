@@ -451,7 +451,7 @@ def calculate_metrics(all_metrics: List[Dict[str, Any]], total_simulation_time: 
 if __name__ == '__main__':
     # --- CONFIGURAÇÃO ---
     # Escolha a política: "RR" (Round Robin), "SJF" (Shortest Job First), ou "PRIORIDADE"
-    POLICY = "SJF"
+    POLICY = "RR"
     
     # --- INICIALIZAÇÃO ---
     multiprocessing.set_start_method('spawn')

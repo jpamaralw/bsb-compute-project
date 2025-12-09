@@ -1,0 +1,15 @@
+{
+  "server_config": [
+    { "id": 1, "capacity": 1 },
+    { "id": 2, "capacity": 1 }
+  ],
+  "request_data": [
+    { "id": 901, "type": "PESADA", "priority": 1, "exec_time": 30.0 },
+    { "id": 902, "type": "RÁPIDA", "priority": 1, "exec_time": 0.5 },
+    { "id": 903, "type": "PESADA", "priority": 1, "exec_time": 30.0 },
+    { "id": 904, "type": "RÁPIDA", "priority": 1, "exec_time": 0.5 },
+    { "id": 905, "type": "PESADA", "priority": 1, "exec_time": 30.0 },
+    { "id": 906, "type": "RÁPIDA", "priority": 1, "exec_time": 0.5 },
+    { "id": 907, "type": "PESADA", "priority": 1, "exec_time": 30.0 }
+  ]
+}
